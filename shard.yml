@@ -1,0 +1,17 @@
+name: crystal-blockchain
+version: 0.1.0
+
+authors:
+  - Joscelyn James <josce.james7@hotmail.com>
+
+targets:
+  crystal-blockchain:
+    main: src/crystal-blockchain.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+crystal: 0.24.2
+
+license: MIT
